@@ -6,6 +6,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import math
 
+
+
+
 # функция, которая находит значение выражения при заданном x
 def calc(x):
 	return str( math.log (abs ( 12 * math.sin( x ) ) ) )
